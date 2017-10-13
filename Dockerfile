@@ -1,4 +1,5 @@
 FROM ubuntu:16.04
+MAINTAINER @sagarmankari || github.com/sagarmk
 
 RUN apt-get update \
   && apt-get install -y --no-install-recommends \
